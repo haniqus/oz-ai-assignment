@@ -1,0 +1,141 @@
+body {
+    background-color: #101114;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242529;
+    font-size: 15px;
+}
+#resume {
+    background-color: #f1f1ef;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 5px;
+}
+.profile-header {
+    background-color: #1b1c1f;
+    padding: 15px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.subtitle {
+    font-size: 22px;
+    color: #b5b8bd;
+    margin-left: 10px;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+    margin: 10px 10px 10px 20px;
+}
+.tagline {
+    color: #95989e;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+#resume > h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 4px solid #747981;
+    padding-left: 12px;
+}
+hr {
+    border: none;
+    border-top: 1px solid #c6c8ca;
+    margin: 25px 0;
+}
+.about-details {
+    background-color: #e7e8e8;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+    line-height: 1.5;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+th {
+    background-color: #242529;
+    color: whitesmoke;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #c6c8ca;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7e8e8;
+}
+.skills {
+    list-style: none;
+    padding: 0;
+}
+.skills li {
+    background-color: #e7e8e8;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.achievements {
+    list-style: none;
+    padding: 0;
+}
+.achievements li {
+    background-color: #e7e8e8;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-left: 3px solid #747981;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #c6c8ca;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+}
+input {
+    max-width: 350px;
+}
+input:focus, textarea:focus {
+    border-color: #747981;
+    outline: 1px solid #747981;
+}
+button {
+    background-color: #242529;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #484a4f;
+}
+small {
+    display: block;
+    text-align: center;
+    color: #888888;
+    font-size: 12px;
+    margin-top: 30px;
+}
